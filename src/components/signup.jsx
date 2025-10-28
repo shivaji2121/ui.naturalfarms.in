@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 
-function SignUp() {
+function Signup() {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState({
     name: '',
@@ -292,4 +292,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Signup;
