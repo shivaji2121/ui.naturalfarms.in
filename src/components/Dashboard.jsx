@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar';
-import Products from './Products';
+import Navbar from './Navbar.jsx';
+import Products from './Products.jsx';
 
 function Dashboard() {
   const navigate = useNavigate();

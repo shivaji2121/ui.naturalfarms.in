@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'; // For navigation to signup page
 import logo from '../assets/logo.png'; // Import the logo
-import Products from './Products'; // Import the Products component
 
 function LandingPage() {
   return (
